@@ -1,0 +1,28 @@
+
+
+button{
+    background-color: white;
+    color: rgb(9, 184, 114);
+    border: 1px solid rgb(9, 184, 114);
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+#plus{
+    background-color: rgb(93, 193, 93);
+    color: white;
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 70px;
+    text-align: center;
+}
+.account{
+    background-color: rgb(49, 49, 240);
+    color: white;
+    width: 100px;
+    border: 1px solid black;
+    margin-left: 70px;
+    box-shadow: 1px ;
+    
+}
