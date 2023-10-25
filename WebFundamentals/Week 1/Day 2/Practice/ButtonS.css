@@ -23,6 +23,6 @@ button{
     width: 100px;
     border: 1px solid black;
     margin-left: 70px;
-    box-shadow: 1px ;
+    box-shadow: 5px 5px 5px black;
     
 }
