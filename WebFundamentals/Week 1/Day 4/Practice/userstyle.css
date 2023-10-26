@@ -1,0 +1,36 @@
+
+.container{
+   width: 800px;
+   margin: 0 auto;
+   border: 2px solid grey;
+}
+.nav{
+    height: 150px;
+    background-color:rgb(12, 186, 186);
+
+}
+.user{
+    margin-top: 80px;
+    width: 150px;
+    height: 100px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    
+
+}
+h1{
+    margin: 30px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    
+}
+img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+    width: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
