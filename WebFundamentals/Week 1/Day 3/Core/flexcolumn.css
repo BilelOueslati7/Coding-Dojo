@@ -1,0 +1,46 @@
+.row{
+    display: flex;
+    justify-content:space-between;
+    min-height: 200px;
+}
+
+.col{
+    
+    width: 400px;
+    height: 100px;
+    
+    background-color: #659DA1;
+    color: white;
+    text-align: center;
+    align-items: center;
+    flex-shrink: 1;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+    .row .col-2{
+    
+    width:600px ;
+    height: 100px;
+    background-color: #659DA1;
+    color: white;
+    text-align: center;
+    flex-shrink: 1;
+    margin: 20px;
+    padding: 10px;
+    
+}
+
+
+.row .col-3{
+    
+    width: 800px;
+    height: 100px;
+    background-color: #659DA1;
+    color: white;
+    text-align: center;
+    flex-shrink: 1;
+    margin: 20px;
+    padding: 10px;
+} 
