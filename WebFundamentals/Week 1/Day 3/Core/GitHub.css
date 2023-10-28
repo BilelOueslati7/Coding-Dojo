@@ -1,17 +1,18 @@
 
 .container{
     width: 1000px;
-    min-height: 900px;
+    min-height: 1000px;
     background-color: #EAF0FF;
     margin: auto;
+    border-top: 3px solid black;
     
 
 }
 h2{
     text-align: center ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 40px;
+    font-weight: bolder;
+    font-size: 50px;
     color: grey;
     
     
@@ -20,7 +21,7 @@ nav{
     width: 900px;
     height: 230px;
     background-color: #4DC5E3;
-    margin:auto;
+    margin:  15px auto;
     display: flex;
     justify-content: space-around;
     padding-top: 15px;
@@ -37,7 +38,7 @@ img{
     background-color:#D2A7B9;
     display: flex;
     justify-content: space-evenly;
-    margin:  15px auto;
+    margin:  30px auto;
     padding-top: 20px;
 }
 
@@ -48,7 +49,8 @@ img{
     background-color:#FCFCFF;
     display: flex;
     justify-content: space-around;
-    margin: auto;   
+    margin: auto; 
+    
     
 }
 
