@@ -1,0 +1,143 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+/*--Nav--*/
+nav{
+    width: 700px;
+    background-color: black;
+    height: 70px;
+    margin: 0px auto;
+    
+}
+nav>h2{
+    padding: 16px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    color: white;
+
+}
+h3{
+    width: 680px;
+    padding: 20px 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: 0px auto;
+    background-color: whitesmoke;
+}
+
+/*--main left--*/
+.avatar{
+    width: 200px;
+    height: 250px;
+    border: 3px solid black;
+    margin-left: 290px;
+}
+.avatar>img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 25px 60px;
+}
+
+.avatar>a:nth-child(2){
+    margin: 30px 50px;
+}
+.avatar>h4:nth-child(3){
+    margin: 40px  50px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.all{
+    display: flex;
+    gap: 70px;
+}
+
+/*--main right--*/
+
+
+.container-1{
+    width: 400px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.Neil{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Neil>span:nth-child(2){
+    margin-left: 65px;
+}
+.Neil>button:nth-child(3){
+    padding: 2px;
+    width: 50px;
+    height: 30px;
+    background-color:rgb(218, 218, 39);
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px;
+    border-radius: 7px;
+}
+
+
+
+.container-2{
+    width: 400px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.Nickole{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Nickole>span:nth-child(2){
+    margin-left: 45px;
+}
+.Nickole>button:nth-child(3){
+    padding: 2px;
+    width: 50px;
+    height: 30px;
+    background-color:rgb(218, 218, 39);
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px;
+    border-radius: 7px;
+}
+
+.container-3{
+    width: 400px;
+    height: 80px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.Jim{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Jim>span:nth-child(2){
+    margin-left: 65px;
+}
+.Jim>button:nth-child(3){
+    padding: 2px;
+    width: 50px;
+    height: 30px;
+    background-color:rgb(218, 218, 39);
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px;
+    border-radius: 7px;
+}
+
+
