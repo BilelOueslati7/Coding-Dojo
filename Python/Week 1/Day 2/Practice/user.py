@@ -42,5 +42,3 @@ user1.display_info()
 user1.spend_points(80)
 user1.display_info()
 
-user1.spend_points(90)
-user1.display_info()

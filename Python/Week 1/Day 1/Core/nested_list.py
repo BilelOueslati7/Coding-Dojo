@@ -1,29 +1,29 @@
-# Update Values in Dictionaries and Lists
+# # Update Values in Dictionaries and Lists
 
-x = [ [5,2,3], [10,8,9] ] 
-students = [
-    {'first_name':  'Michael', 'last_name' : 'Jordan'},
-    {'first_name' : 'John', 'last_name' : 'Rosales'}
-]
-sports_directory = {
-    'basketball' : ['Kobe', 'Jordan', 'James', 'Curry'],
-    'soccer' : ['Messi', 'Ronaldo', 'Rooney']
-}
-z = [ {'x': 10, 'y': 20} ]
+# x = [[5, 2, 3], [10, 8, 9]]
+# students = [
+#     {"first_name": "Michael", "last_name": "Jordan"},
+#     {"first_name": "John", "last_name": "Rosales"},
+# ]
+# sports_directory = {
+#     "basketball": ["Kobe", "Jordan", "James", "Curry"],
+#     "soccer": ["Messi", "Ronaldo", "Rooney"],
+# }
+# z = [{"x": 10, "y": 20}]
 
-x[1][0] = 15
+# x[1][0] = 15
 
-students[0]['last_name'] = 'Bryant'
+# students[0]["last_name"] = "Bryant"
 
-sports_directory['soccer'][0] = 'Andres'
+# sports_directory["soccer"][0] = "Andres"
 
 
-z[0]['y'] = 30
+# z[0]["y"] = 30
 
-#Iterate Through a List of Dictionaries
-for dictionary in some_list:
-    for key, value in dictionary.items():
-        print(f"{key}: {value}")
+# # Iterate Through a List of Dictionaries
+# for dictionary in some_list:
+#     for key, value in dictionary.items():
+#         print(f"{key}: {value}")
 
 
 # Get Values From a List of Dictionaries
@@ -35,27 +35,15 @@ def iterateDictionary2(first_name, students):
             print(dictionary[first_name])
 
 
-#Iterate Through a Dictionary with List Values
+def iterateDictionary2(last_name, students):
+    for dictonary in students:
+        if last_name in dictionary:
+            print(dictionary[last_name])
+
+
+# Iterate Through a Dictionary with List Values
+
 
 def printInfo(some_dict):
     for x in values:
-            print(x)            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        print(x)
