@@ -4,19 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
-    <title>Circles</title>
-    <style>
-
-    </style>
+    <title>Box</title>
 </head>
 <body>
-    <div>
-        <h1>Draw Circles</h1>
-        <div class="container">
-            {%for i in range(number)%}
-                <div class="circle" style="background-color: {{color}};"></div>
-            {%endfor%}
+    <h1>Welcome !</h1>
+<div class="container">
+    {%for i in range(number)%}
+        <div class="box">
         </div>
-    </div>
+        {%endfor%}
+    
 </body>
 </html>
